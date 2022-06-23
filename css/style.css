@@ -240,6 +240,32 @@ img {
   flex-wrap: nowrap;
 }
 
+.about-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+}
+
+.icon-antenna::before {
+  background-image: url(../img/antenna.png);
+}
+
+.icon-clock::before {
+  background-image: url(../img/clock.png);
+}
+
+.icon-diagram::before {
+  background-image: url(../img/diagram.png);
+}
+
+.icon-astronaut::before {
+  background-image: url(../img/astronaut.png);
+}
+
 .about-item:not(:last-child) {
   margin-right: 30px; 
 }
@@ -251,6 +277,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-title-color);
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
