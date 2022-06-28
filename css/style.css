@@ -399,14 +399,14 @@ img {
   fill: #AFB1B8;
 }
 
-/* .team-soc-icon {
-  fill: var(--hero-title-color);
-} */
-
 .team-soc-link:hover,
 .team-soc-link:focus {
-  background-color: var(--hero-btn-color);
-  fill: var(--hero-title-color);
+  background-color: #2196f3;.
+}
+
+.team-soc-link:hover .team-soc-icon,
+.team-soc-link:focus .team-soc-icon {
+  fill: #ffffff;
 }
 
 /* ------------portfolio------------ */
