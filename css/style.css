@@ -167,7 +167,7 @@ img {
   align-items: center;
   justify-content: center;
   padding-right: 10px;
-  fill:#757575;
+  fill: #757575;
 }
 
 /* ------------hero------------ */
@@ -392,7 +392,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .team-soc-link:hover,
@@ -422,7 +422,7 @@ img {
   height: 92px;
   margin-right: var(--typical-margin);
   border-radius: 4px;
-  outline: 1px solid #AFB1B8;
+  outline: 1px solid #afb1b8;
   margin-bottom: 94px;
 }
 
@@ -436,7 +436,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .clients-item:hover,
@@ -583,6 +583,20 @@ img {
   justify-content: center;
 }
 
+.footer-slogan .title {
+  width: 144px;
+  height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc (16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
 .footer-slogan-item {
   width: 44px;
   height: 44px;
@@ -601,7 +615,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .footer-slogan-link:hover,
