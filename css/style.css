@@ -576,3 +576,40 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-slogan-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-slogan-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+/* .team-soc-item:last-child {
+  margin-right: 0;
+} */
+
+.footer-slogan-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--hero-title-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #AFB1B8;
+}
+
+.footer-slogan-link:hover,
+.footer-slogan-link:focus {
+  background-color: #2196f3;
+}
+
+.footer-slogan-link:hover .footer-slogan-icon,
+.footer-slogan-link:focus .footer-slogan-icon {
+  fill: #ffffff;
+}
