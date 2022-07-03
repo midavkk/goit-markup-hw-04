@@ -586,6 +586,10 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-slogan {
+  margin-top: 72px;
+}
+
 .footer-slogan-list {
   list-style-type: none;
   display: flex;
