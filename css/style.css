@@ -477,6 +477,8 @@ img {
 .portfolio-btn:focus {
   background-color: var(--hero-btn-color);
   color: var(--hero-title-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-btn .current:hover .portfolio-btn .current:focus {
@@ -501,18 +503,25 @@ img {
 }
 
 .benefits > .benefits-item {
-  /* outline: 2px solid teal; */
   flex-basis: calc(100% / 3 - 30px);
   margin-left: var(--typical-margin);
   margin-top: var(--typical-margin);
   max-width: 370px;
+  background: var(--hero-title-color);
+  border: 1px solid #eeeeee;
+}
+
+.benefits-item:hover,
+.benefits-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .benefits-content {
   background: var(--hero-title-color);
-  border-right: 1px solid #eeeeee;
+  /* border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee; */
   padding: 20px 24px;
   max-width: 370px;
   max-height: 110px;
@@ -603,27 +612,18 @@ img {
   margin-right: 10px;
 }
 
-/* .team-soc-item:last-child {
-  margin-right: 0;
-} */
-
 .footer-slogan-link {
   width: 100%;
   height: 100%;
-  background-color: var(--hero-title-color);
+  background-color: var(--main-text-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #afb1b8;
+  fill: var(--hero-title-color);
 }
 
 .footer-slogan-link:hover,
 .footer-slogan-link:focus {
   background-color: #2196f3;
-}
-
-.footer-slogan-link:hover .footer-slogan-icon,
-.footer-slogan-link:focus .footer-slogan-icon {
-  fill: #ffffff;
 }
