@@ -555,13 +555,17 @@ img {
   padding: 60px 0;
 }
 
+.footer .container {
+  display: flex;
+}
+
+.footer-contacts {
+  margin-bottom: 20px;
+}
+
 .footer-content {
   max-width: 231px;
   min-height: 81px;
-}
-
-.logo-box {
-  margin-bottom: 20px;
 }
 
 .footer-content-item {
@@ -579,7 +583,7 @@ img {
 
 .footer-contacts-link {
   font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -597,17 +601,18 @@ img {
 }
 
 .footer-slogan .title {
-  width: 144px;
-  height: 16px;
+  /* width: 144px; */
+  /* height: 16px; */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: calc (16 / 14);
+  /* line-height: calc (16 / 14); */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .footer-slogan-item {
