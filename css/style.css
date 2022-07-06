@@ -561,11 +561,13 @@ img {
 
 .footer-contacts {
   margin-bottom: 20px;
+  margin-right: 70px;
 }
 
 .footer-content {
   max-width: 231px;
   min-height: 81px;
+  margin-top: 20px;
 }
 
 .footer-content-item {
@@ -591,7 +593,8 @@ img {
 }
 
 .footer-slogan {
-  margin-top: 72px;
+  margin-bottom: 20px;
+  margin-right: 70px;
 }
 
 .footer-slogan-list {
@@ -600,7 +603,7 @@ img {
   justify-content: center;
 }
 
-.footer-slogan .title {
+.footer-slogan-title {
   /* width: 144px; */
   /* height: 16px; */
   font-family: "Roboto";
