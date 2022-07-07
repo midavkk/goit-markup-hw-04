@@ -239,42 +239,33 @@ img {
 }
 
 .about-list {
-  /* outline: 3px solid grey; */
   list-style-type: none;
   padding: 0;
   display: flex;
   flex-wrap: nowrap;
 }
 
-.about-item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
+.about-card {
+  max-width: 270px;
+  max-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
-.icon-antenna::before {
-  background-image: url(../img/antenna.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../img/clock.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../img/diagram.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../img/astronaut.svg);
+.card-thumb {
+  max-width: 270px;
 }
 
 .about-item:not(:last-child) {
   margin-right: 30px;
 }
+
+/* .about-text:not(:last-child) {
+  margin-right: 30px;
+} */
 
 .about-title {
   font-weight: 700;
