@@ -166,8 +166,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: 10px;
+  margin-right: 10px;
   fill: #757575;
+}
+
+.contacts-icon:hover,
+.contacts-icon:focus {
+  color: currentColor;
+  text-shadow: 0px 4px 4px currentColor;
 }
 
 /* ------------hero------------ */
