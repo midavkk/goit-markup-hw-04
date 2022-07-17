@@ -15,16 +15,6 @@
 /* цвет фона героя и футера черный #2F303A */
 /* цвета логотипа голубой #2196F3 и черный #000000 */
 
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 p,
 h1,
 h2,
@@ -80,7 +70,6 @@ img {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
   margin-right: 93px;
@@ -118,7 +107,7 @@ img {
 }
 
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -200,7 +189,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .section-title {
@@ -228,6 +217,7 @@ img {
   display: inline-block;
   padding: 10px 32px;
   margin: 0 auto;
+  border: none;
   border-radius: 4px;
 }
 
@@ -404,13 +394,7 @@ img {
 /* ------------clients------------ */
 
 .clients {
-  /* margin-bottom: 94px; */
   padding: 94px 0;
-}
-
-.clients-title {
-  /* margin-top: 94px; */
-  padding-top: 94px 0;
 }
 
 .clients-list {
@@ -493,7 +477,7 @@ img {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  padding-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .benefits {
@@ -501,7 +485,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 -30px 0 -30px;
+  margin-top: 0 -30px 0 -30px;
 }
 
 .benefits > .benefits-item {
@@ -521,9 +505,6 @@ img {
 
 .benefits-content {
   background: var(--hero-title-color);
-  /* border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee; */
   padding: 20px 24px;
   max-width: 370px;
   max-height: 110px;
@@ -559,10 +540,10 @@ img {
 
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-contacts {
-  margin-bottom: 20px;
   margin-right: 70px;
 }
 
@@ -583,6 +564,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--hero-title-color);
+  margin-bottom: 9px;
 }
 
 .footer-contacts-link {
@@ -593,8 +575,11 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-contacts-link:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .footer-slogan {
-  margin-bottom: 20px;
   margin-right: 70px;
 }
 
@@ -605,13 +590,10 @@ img {
 }
 
 .footer-slogan-title {
-  /* width: 144px; */
-  /* height: 16px; */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  /* line-height: calc (16 / 14); */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
